@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1549699F8A0F8822EB3BDC9B /* Pods_bitcoinWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F436FD5AC5EF8A87ED9CB025 /* Pods_bitcoinWatch.framework */; };
 		752B910022D2B429005DD3D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752B90FF22D2B429005DD3D5 /* AppDelegate.swift */; };
 		752B910222D2B429005DD3D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752B910122D2B429005DD3D5 /* SceneDelegate.swift */; };
 		752B910422D2B429005DD3D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752B910322D2B429005DD3D5 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A29760FC9518789009D0085 /* Pods-bitcoinWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcoinWatch.release.xcconfig"; path = "Target Support Files/Pods-bitcoinWatch/Pods-bitcoinWatch.release.xcconfig"; sourceTree = "<group>"; };
 		752B90FC22D2B429005DD3D5 /* bitcoinWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitcoinWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		752B90FF22D2B429005DD3D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		752B910122D2B429005DD3D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		752B910822D2B42A005DD3D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		752B910B22D2B42A005DD3D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		752B910D22D2B42A005DD3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F173B89FF724BF2067716059 /* Pods-bitcoinWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcoinWatch.debug.xcconfig"; path = "Target Support Files/Pods-bitcoinWatch/Pods-bitcoinWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		F436FD5AC5EF8A87ED9CB025 /* Pods_bitcoinWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bitcoinWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1549699F8A0F8822EB3BDC9B /* Pods_bitcoinWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02D42942044DE5E883F0D1A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F436FD5AC5EF8A87ED9CB025 /* Pods_bitcoinWatch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41362B2094B6490E8FA2DD27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F173B89FF724BF2067716059 /* Pods-bitcoinWatch.debug.xcconfig */,
+				0A29760FC9518789009D0085 /* Pods-bitcoinWatch.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		752B90F322D2B429005DD3D5 = {
 			isa = PBXGroup;
 			children = (
 				752B90FE22D2B429005DD3D5 /* bitcoinWatch */,
 				752B90FD22D2B429005DD3D5 /* Products */,
+				41362B2094B6490E8FA2DD27 /* Pods */,
+				02D42942044DE5E883F0D1A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 752B911022D2B42A005DD3D5 /* Build configuration list for PBXNativeTarget "bitcoinWatch" */;
 			buildPhases = (
+				60873EFC55DDE1219F40C54C /* [CP] Check Pods Manifest.lock */,
 				752B90F822D2B429005DD3D5 /* Sources */,
 				752B90F922D2B429005DD3D5 /* Frameworks */,
 				752B90FA22D2B429005DD3D5 /* Resources */,
+				8DC9370F043C4D3E9AA0F086 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60873EFC55DDE1219F40C54C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bitcoinWatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DC9370F043C4D3E9AA0F086 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bitcoinWatch/Pods-bitcoinWatch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bitcoinWatch/Pods-bitcoinWatch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bitcoinWatch/Pods-bitcoinWatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		752B90F822D2B429005DD3D5 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		752B911122D2B42A005DD3D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F173B89FF724BF2067716059 /* Pods-bitcoinWatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +370,7 @@
 		};
 		752B911222D2B42A005DD3D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A29760FC9518789009D0085 /* Pods-bitcoinWatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
