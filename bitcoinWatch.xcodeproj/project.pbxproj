@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		752B910722D2B429005DD3D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752B910522D2B429005DD3D5 /* Main.storyboard */; };
 		752B910922D2B42A005DD3D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752B910822D2B42A005DD3D5 /* Assets.xcassets */; };
 		752B910C22D2B42A005DD3D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752B910A22D2B42A005DD3D5 /* LaunchScreen.storyboard */; };
+		75BA6ACC22D2BD4E0031A8C6 /* bitcoin.gif in Resources */ = {isa = PBXBuildFile; fileRef = 75BA6ACB22D2BD4E0031A8C6 /* bitcoin.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		752B910822D2B42A005DD3D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		752B910B22D2B42A005DD3D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		752B910D22D2B42A005DD3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75BA6ACB22D2BD4E0031A8C6 /* bitcoin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bitcoin.gif; sourceTree = "<group>"; };
 		F173B89FF724BF2067716059 /* Pods-bitcoinWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcoinWatch.debug.xcconfig"; path = "Target Support Files/Pods-bitcoinWatch/Pods-bitcoinWatch.debug.xcconfig"; sourceTree = "<group>"; };
 		F436FD5AC5EF8A87ED9CB025 /* Pods_bitcoinWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bitcoinWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -56,7 +58,6 @@
 				F173B89FF724BF2067716059 /* Pods-bitcoinWatch.debug.xcconfig */,
 				0A29760FC9518789009D0085 /* Pods-bitcoinWatch.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -86,6 +87,7 @@
 				752B910322D2B429005DD3D5 /* ViewController.swift */,
 				752B910522D2B429005DD3D5 /* Main.storyboard */,
 				752B910822D2B42A005DD3D5 /* Assets.xcassets */,
+				75BA6ACB22D2BD4E0031A8C6 /* bitcoin.gif */,
 				752B910A22D2B42A005DD3D5 /* LaunchScreen.storyboard */,
 				752B910D22D2B42A005DD3D5 /* Info.plist */,
 			);
@@ -155,6 +157,7 @@
 				752B910C22D2B42A005DD3D5 /* LaunchScreen.storyboard in Resources */,
 				752B910922D2B42A005DD3D5 /* Assets.xcassets in Resources */,
 				752B910722D2B429005DD3D5 /* Main.storyboard in Resources */,
+				75BA6ACC22D2BD4E0031A8C6 /* bitcoin.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

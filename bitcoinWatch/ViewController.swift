@@ -11,13 +11,20 @@ import FLAnimatedImage
 
 class ViewController: UIViewController {
     
-    @IBOutlet var animatedImage: FLAnimatedImageView!
+    let gifs = ["bitcoin"]
+    
+    @IBOutlet var image1: FLAnimatedImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        let path1 : String = Bundle.main.path(forResource: "bitcoin", ofType: "gif")!
+        let imageData1 = try? FLAnimatedImage(animatedGIFData: Data(contentsOf: URL(fileURLWithPath: path1)))
+        image1.animatedImage = imageData1
     }
 
+    
 
 }
 
