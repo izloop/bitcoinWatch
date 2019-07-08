@@ -1,16 +1,24 @@
 PODS:
+  - Alamofire (4.8.2)
   - FLAnimatedImage (1.0.12)
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
+  - Alamofire
   - FLAnimatedImage
+  - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - FLAnimatedImage
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: a52488e78ef847ba013d6c71cadf2de58fe4c9ef
+PODFILE CHECKSUM: 16980adc4942a7d5d8b1e7cad4f0b6e262f6528b
 
 COCOAPODS: 1.7.2

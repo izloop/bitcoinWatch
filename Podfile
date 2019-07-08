@@ -8,5 +8,7 @@ target 'bitcoinWatch' do
   # Pods for bitcoinWatch
 
   pod 'FLAnimatedImage'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
 
 end
